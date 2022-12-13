@@ -3,5 +3,6 @@ version: 2
 updates:
 - package-ecosystem: pip
   directory: /src
+  insecure-external-code-execution: allow
   schedule:
     interval: daily
